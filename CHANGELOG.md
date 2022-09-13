@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.0.11](https://github.com/shinokada/release-please-example/compare/v0.0.8...v0.0.11) (2022-09-13)
+
+
+### Features
+
+* change from pnpm to npm ([88204b1](https://github.com/shinokada/release-please-example/commit/88204b1ee277258923257b72f5befc90b9dae7da))
+* remove .npmrc ([8159e64](https://github.com/shinokada/release-please-example/commit/8159e64d7f0864eec38adb5d4394001eee5cf151))
+* update npm-publish.yml ([6feea11](https://github.com/shinokada/release-please-example/commit/6feea111525ca79e9b4cc000b8879a4b1bfb170a))
+* update package.json add publishConfig ([9421b9d](https://github.com/shinokada/release-please-example/commit/9421b9d0117ac355924cf537a92933ab5937d3b8))
+
+
+### Documentation
+
+* remove private from package.json ([3ea79c6](https://github.com/shinokada/release-please-example/commit/3ea79c6f8e2d2153562a55c5cfb4c0774529672e))
+
 ## [0.0.8](https://github.com/shinokada/release-please-example/compare/v0.0.6...v0.0.8) (2022-09-13)
 
 
