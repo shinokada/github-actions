@@ -1,6 +1,11 @@
+name: NPM-publish
+
 on:
-  release:
-    types: [published]
+  push:
+    tags: 
+      - 'v*'
+    branches:
+      - main
  
 
 jobs:
