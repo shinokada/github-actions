@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/shinokada/release-please-example/compare/v0.0.4...v0.0.5) (2022-09-13)
+
+
+### Documentation
+
+* update README ([87e1223](https://github.com/shinokada/release-please-example/commit/87e12234fcd03effe19dd2d7f92f06bd0e42d35d))
+
 ## [0.0.4](https://github.com/shinokada/release-please-example/compare/v0.0.3...v0.0.4) (2022-09-13)
 
 
