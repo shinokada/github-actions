@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.12](https://github.com/shinokada/release-please-example/compare/v0.0.11...v0.0.12) (2022-09-13)
+
+
+### Features
+
+* update npm-publish.yml ([d89ef01](https://github.com/shinokada/release-please-example/commit/d89ef0157c356ec7908fb6436927ab0f1e6e3351))
+
 ## [0.0.11](https://github.com/shinokada/release-please-example/compare/v0.0.8...v0.0.11) (2022-09-13)
 
 
