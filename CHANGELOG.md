@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.7](https://github.com/shinokada/release-please-example/compare/v0.0.6...v0.0.7) (2022-09-13)
+
+
+### Features
+
+* update main and npm-publish.yml ([f5bf441](https://github.com/shinokada/release-please-example/commit/f5bf44108d935e4da06bab0891fdf9558f50710b))
+
 ## [0.0.6](https://github.com/shinokada/release-please-example/compare/v0.0.5...v0.0.6) (2022-09-13)
 
 
