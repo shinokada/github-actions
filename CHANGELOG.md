@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.15](https://github.com/shinokada/release-please-example/compare/v0.0.14...v0.0.15) (2022-09-13)
+
+
+### Bug Fixes
+
+* remove npm-publish ([af7c467](https://github.com/shinokada/release-please-example/commit/af7c4672cb551897950b98d45f2d9d94ed51a80f))
+
 ## [0.0.14](https://github.com/shinokada/release-please-example/compare/v0.0.13...v0.0.14) (2022-09-13)
 
 
