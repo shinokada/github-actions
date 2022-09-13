@@ -1,22 +1,26 @@
 {
-  "name": "release-please-example",
-  "version": "0.0.3",
-  "description": "release-please example",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shinokada/release-please-example.git"
-  },
-  "keywords": [
-    "release-please"
-  ],
-  "author": "Shinichi Okada",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shinokada/release-please-example/issues"
-  },
-  "homepage": "https://github.com/shinokada/release-please-example#readme"
+	"name": "release-please-example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"package": "svelte-package"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"@sveltejs/package": "1.0.0-next.3",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.7.1",
+		"svelte-preprocess": "^4.10.6",
+		"svelte2tsx": "^0.5.16",
+		"tslib": "^2.3.1",
+		"typescript": "^4.7.4",
+		"vite": "^3.1.0"
+	},
+	"type": "module"
 }
