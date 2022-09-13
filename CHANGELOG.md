@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.13](https://github.com/shinokada/release-please-example/compare/v0.0.12...v0.0.13) (2022-09-13)
+
+
+### Features
+
+* remove npm-publish an update package.json ([4eba45d](https://github.com/shinokada/release-please-example/commit/4eba45d20c6279064c0010115e1e99859e99d758))
+
+
+### Documentation
+
+* update README ([5290198](https://github.com/shinokada/release-please-example/commit/5290198c3075cdbe1c1d62e3c65e679bfb0277f6))
+
 ## [0.0.12](https://github.com/shinokada/release-please-example/compare/v0.0.11...v0.0.12) (2022-09-13)
 
 
