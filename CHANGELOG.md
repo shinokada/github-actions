@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.9](https://github.com/shinokada/release-please-example/compare/v0.0.8...v0.0.9) (2022-09-13)
+
+
+### Features
+
+* update npm-publish.yml ([6feea11](https://github.com/shinokada/release-please-example/commit/6feea111525ca79e9b4cc000b8879a4b1bfb170a))
+
+
+### Documentation
+
+* remove private from package.json ([3ea79c6](https://github.com/shinokada/release-please-example/commit/3ea79c6f8e2d2153562a55c5cfb4c0774529672e))
+
 ## [0.0.8](https://github.com/shinokada/release-please-example/compare/v0.0.6...v0.0.8) (2022-09-13)
 
 
