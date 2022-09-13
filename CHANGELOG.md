@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6](https://github.com/shinokada/release-please-example/compare/v0.0.5...v0.0.6) (2022-09-13)
+
+
+### Features
+
+* add main workflow ([7a9d4c4](https://github.com/shinokada/release-please-example/commit/7a9d4c478a2d0400dd5ec1d9537c32b690428391))
+
 ## [0.0.5](https://github.com/shinokada/release-please-example/compare/v0.0.4...v0.0.5) (2022-09-13)
 
 
