@@ -1,0 +1,22 @@
+{
+  "name": "release-please-example",
+  "version": "0.0.1",
+  "description": "release-please example",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinokada/release-please-example.git"
+  },
+  "keywords": [
+    "release-please"
+  ],
+  "author": "Shinichi Okada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinokada/release-please-example/issues"
+  },
+  "homepage": "https://github.com/shinokada/release-please-example#readme"
+}
