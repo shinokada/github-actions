@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.24](https://github.com/shinokada/release-please-example/compare/v0.0.23...v0.0.24) (2022-09-14)
+
+
+### Bug Fixes
+
+* add publish NPM_TOKEN to the repo ([155c08f](https://github.com/shinokada/release-please-example/commit/155c08f9f4c205f471435efcd0b9a39bdff9628c))
+
 ## [0.0.23](https://github.com/shinokada/release-please-example/compare/v0.0.22...v0.0.23) (2022-09-14)
 
 
