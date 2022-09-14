@@ -21,12 +21,27 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: https://registry.npmjs.org/
-      - run: npm install
-      - run: npm run package
-        env:
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: Checkout Repo
+      uses: actions/checkout@v3
+
+      - name: Setupt Node.js 16.x 
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+      
+      - name: Install Dependencies 
+      run: npm install
+
+      - name: Creating .npmrc
+      run: |
+        cat << EOF > "$HOME/.npmrc"
+          //registry.npmjs.org/:_authToken=$NPM_TOKEN
+        EOF
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Create a package and Publish to npm 
+      run: npm run package
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{secrets.NPM_TOKEN}}
