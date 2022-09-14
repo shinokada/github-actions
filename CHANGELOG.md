@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.25](https://github.com/shinokada/release-please-example/compare/v0.0.24...v0.0.25) (2022-09-14)
+
+
+### Bug Fixes
+
+* add .npmrc ([c5618dd](https://github.com/shinokada/release-please-example/commit/c5618dd66ee07438e4356c31ed04395addd322ab))
+
+
+### Miscellaneous Chores
+
+* release 0.0.25 ([dae2a1b](https://github.com/shinokada/release-please-example/commit/dae2a1b39d72d8acbb238bdefa8c8564e25fab82))
+
 ## [0.0.24](https://github.com/shinokada/release-please-example/compare/v0.0.23...v0.0.24) (2022-09-14)
 
 
