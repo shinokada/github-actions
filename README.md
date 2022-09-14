@@ -13,7 +13,9 @@ This will email you a release note and publish a new release.
 
 **Not able to run GitHub action to publish npm package**
 
-Add NPM_TOKEN with **publish**
+Add NPM_TOKEN with **automation**
+
+GitHub: Not to Environments create it to Secrets Actions
 
 
 ## add npm-publish.yml
