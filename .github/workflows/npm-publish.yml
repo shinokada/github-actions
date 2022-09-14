@@ -27,7 +27,7 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: |
-        npm ci
+        npm install
         npm run package
         env:
           NPM_TOKEN: ${{secrets.npm_token}}
