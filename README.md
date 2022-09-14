@@ -9,7 +9,12 @@ This creates a PR and email.
 
 - Merge the PR
 
-This will email you a release note.
+This will email you a release note and publish a new release.
+
+**Not able to run GitHub action to publish npm package**
+
+Add NPM_TOKEN with **publish**
+
 
 ## add npm-publish.yml
 
