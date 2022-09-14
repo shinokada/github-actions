@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.23](https://github.com/shinokada/release-please-example/compare/v0.0.22...v0.0.23) (2022-09-14)
+
+
+### Bug Fixes
+
+* update npm-publish 6 ([2f6d106](https://github.com/shinokada/release-please-example/commit/2f6d10688b1fba03804f843935778b98749985f3))
+
 ## [0.0.22](https://github.com/shinokada/release-please-example/compare/v0.0.21...v0.0.22) (2022-09-14)
 
 
