@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.17](https://github.com/shinokada/release-please-example/compare/v0.0.16...v0.0.17) (2022-09-14)
+
+
+### Bug Fixes
+
+* update npm-publish ([6eb22e9](https://github.com/shinokada/release-please-example/commit/6eb22e9c6f8fdc114ba51acd9cfb7d6ca08d8fc2))
+
+
+### Miscellaneous Chores
+
+* release 0.0.17 ([7981d01](https://github.com/shinokada/release-please-example/commit/7981d01c490e76893967d07787a4681776545767))
+
 ## [0.0.16](https://github.com/shinokada/release-please-example/compare/v0.0.15...v0.0.16) (2022-09-13)
 
 
