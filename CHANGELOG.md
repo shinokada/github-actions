@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.31](https://github.com/shinokada/release-please-example/compare/v0.0.30...v0.0.31) (2022-09-14)
+
+
+### Bug Fixes
+
+* update npm-publish 31 ([15b6a33](https://github.com/shinokada/release-please-example/commit/15b6a33222db8b93dbd4dc31681698356a5f762e))
+
 ## [0.0.30](https://github.com/shinokada/release-please-example/compare/v0.0.29...v0.0.30) (2022-09-14)
 
 
