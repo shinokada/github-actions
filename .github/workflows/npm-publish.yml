@@ -26,7 +26,9 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
+      - run: |
+        npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+        npm ci
       - run: npm run package
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NPM_TOKEN: ${{secrets.npm_token}}
