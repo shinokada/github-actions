@@ -32,7 +32,11 @@ jobs:
 
       - name: Create a package and Publish to npm 
         run: npm run package
+      
+      - name: Change dir
         run: cd package
+
+      - name: Run npm publish
         run: npm publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
