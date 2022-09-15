@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   export let pClass = "text-gray-700 dark:text-white mb-1";
   export let href = "";
 </script>
