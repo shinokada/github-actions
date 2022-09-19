@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/shinokada/release-please-example/compare/v0.0.35...v0.1.0) (2022-09-19)
+
+
+### Features
+
+* add release-please to README ([b415293](https://github.com/shinokada/release-please-example/commit/b415293bb5e3625fc703fd80062d5d090aa32b11))
+
 ## [0.0.35](https://github.com/shinokada/release-please-example/compare/v0.0.34...v0.0.35) (2022-09-15)
 
 
