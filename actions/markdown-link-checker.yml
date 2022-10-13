@@ -1,0 +1,20 @@
+# https://github.com/release-it/release-it/blob/master/.github/workflows/markdown-link-checker.yml
+name: Check Markdown links
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - '!**'
+  schedule:
+    - cron: '0 3 * * 2'
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          config-file: .github/workflows/markdown-link-checker.json
