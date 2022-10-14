@@ -1,0 +1,17 @@
+# https://github.com/softprops/action-gh-release
+# Limit releases to pushes to tags
+# Typically usage of this action involves adding a step to a build that is gated pushes to git tags. You may find step.if field helpful in accomplishing this as it maximizes the reuse value of your workflow for non-tag pushes.
+
+name: Main
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')

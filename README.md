@@ -1,5 +1,15 @@
-# release-please-example
+# GitHub actions
 
+Collections of GitHub actions.
+
+## More actions
+
+You can find them from [Awesome-Actions](https://github.com/sdras/awesome-actions)
+
+
+## Cypress 
+
+[Cypress GitHub workflows](https://github.com/cypress-io/github-action/tree/master/.github/workflows)
 
 ## Added github/workflow/release-please.yml
 

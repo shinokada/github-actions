@@ -1,0 +1,34 @@
+# https://github.com/marvinpinto/action-automatic-releases
+
+# Create a new GitHub release when tags are pushed to the repository
+# Similar to the previous example, this workflow will kick in as soon as new tags are pushed to GitHub. After building & testing your project:
+
+# Generate a changelog from all the commits between this and the previous semver-looking tag.
+# Generate a new release and associate it with this tag.
+# Upload LICENSE.txt and any jar files as release assets.
+
+name: "tagged-release"
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  tagged-release:
+    name: "Tagged Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      # ...
+      - name: "Build & test"
+        run: |
+          echo "done!"
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            LICENSE.txt
+            *.jar
