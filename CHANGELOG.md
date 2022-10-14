@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/shinokada/github-actions/compare/v0.1.0...v0.2.0) (2022-10-14)
+
+
+### Features
+
+* add more actions and update readme ([07b952b](https://github.com/shinokada/github-actions/commit/07b952b61ba83d1038af2486ffd8a96585a2fb0f))
+
 ## [0.1.0](https://github.com/shinokada/release-please-example/compare/v0.0.35...v0.1.0) (2022-09-19)
 
 
